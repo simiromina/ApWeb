@@ -1,0 +1,40 @@
+#container {
+    position: relative;
+    width: 100%;
+}
+
+.frm{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	/* border: solid;
+    background-color: #b0e0e6;*/
+}
+
+.cutie {
+	background:black;
+	height:50px;
+	width:50px;
+	position:absolute;
+}
+
+/*#inside{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+#txt1{
+	margin:0;padding:0;
+	float: left;
+}
+#poza{
+	margin:0;padding:0;
+	float: left;
+}
+#txt2{
+	margin:0;padding:0;
+	position: absolute;
+}
+*/
