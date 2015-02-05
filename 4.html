@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title> Pagina 4 </title>
+		
+		<!-- import JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- import CSS - deseneaza cutia initiala -->
+		<link rel="stylesheet" type="text/css" href="cutie.css" />
+		
+		<!-- animate cutia -->
+		<script>
+		<!--
+			
+			$(document).ready(function(){
+					$("#divYoutube").hide();
+					$("#divMaps").hide();
+					$("#btnYoutube").click(function(){
+						$("#divMaps").fadeOut();
+						$("#divYoutube").toggle(1000);
+					});
+					
+					$("#btnMaps").click(function(){
+						$("#divYoutube").fadeOut();
+						$("#divMaps").toggle(1000);
+					});
+
+					
+			});
+			
+			
+			
+		-->
+		</script>
+		
+	</head>
+	<body>
+		<div id="container" width="100%" height="100%">
+		
+		<!-- create menu
+		     using buttons to open a new page  -->
+		<div id="meniu" align="center">
+			<input type="button" value="B1" onclick="location.href='1.html'"> 
+			<input type="button" value="B2" onclick="location.href='2.html'">
+			<input type="button" value="B3" onclick="location.href='#'">
+			<input type="button" value="B4" onclick="location.href='4.html'">
+		</div>
+		
+		<br>
+		<div id="inside" align="center">
+			<table>
+				<tr>
+					<td width="50%" align="right">
+						<p> asldasd asldas ldas</p>
+						<p> asljkdaskd jklasd  kajsd k  askdj </p>
+						<p> asldasd asldas ldas</p>
+						<p> asljkdaskd jklasd  kajsd k  askdj </p>
+					</td>
+					<td width="50%">
+						<img src="http://goo.gl/rryjP8" style="width:50%; height:50%">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" width="100%">
+						<p> asldasd asldas ldas</p>
+						<p> asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd asljkdaskd jklasd  kajsd k  askdj </p>
+					</td>
+				</tr>
+				
+			</table>	
+				<center><input type="button" value="youtube" id="btnYoutube">
+				<input type="button" value="maps" id="btnMaps"></center>
+			
+		</div>
+		<div id="divYoutube" width="50%" height="50%" align="center">
+			bla bla
+			<iframe  src="https://www.youtube.com/embed/r2Hlaf6cEQU" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div id="divMaps" width="50%" height="50%" align="center">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10931.400087026817!2d23.60304373944092!3d46.76785262368334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1422958615963"  frameborder="0" style="border:0"></iframe>
+		</div>
+		
+		</div>
+	</body>
+</html>
