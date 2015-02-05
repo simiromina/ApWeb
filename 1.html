@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title> Pagina 1 </title>
+		
+		<!-- import JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- import CSS - deseneaza cutia initiala -->
+		<link rel="stylesheet" type="text/css" href="cutie.css" />
+		
+		<!-- animate cutia -->
+		<script>
+		<!--
+			var windowWidth = $(window).width(); //retrieve current window width
+			var windowHeight = $(window).height(); //retrieve current window height
+			$(document).ready(function(){
+				$("#btn05").click(function(){
+					wW = windowWidth - 110;
+					wH = windowHeight - 260;
+					$(".cutie").animate({left: wW});
+					$(".cutie").animate({marginTop: wH, height: 100, width:100});
+					$(".cutie").animate({left: 40});
+					$(".cutie").animate({marginTop: 30, height: 50, width:50});
+					
+			});
+			});
+		-->
+		</script>
+		
+	</head>
+	<body>
+		<div id="container" width="100%" heigth="100%">
+		
+		<!-- create menu
+		     using buttons to open a new page  -->
+		<div id="meniu" align="center">
+			<input type="button" value="B1" onclick="location.href='#'"> 
+			<input type="button" value="B2" onclick="location.href='2.html'">
+			<input type="button" value="B3" onclick="location.href='3.html'">
+			<input type="button" value="B4" onclick="location.href='4.html'">
+		</div>
+		
+		<br>
+		
+		<div align="center">
+			<input type="button" id="btn05" value="B5">
+		</div>
+		
+		<div class="cutie">
+		</div>
+		
+		</div>
+	</body>
+</html>
