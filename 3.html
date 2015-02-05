@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title> Pagina 2 </title>
+		
+		<!-- import JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- import CSS - deseneaza cutia initiala -->
+		<link rel="stylesheet" type="text/css" href="cutie.css" />
+		
+		<!-- animate cutia -->
+		<script>
+		<!--
+			var windowWidth = $(window).width(); //retrieve current window width
+			var windowHeight = $(window).height(); //retrieve current window height
+			$(document).ready(function(){
+					$(".frm").hide();
+					wW = windowWidth - 110;
+					wH = windowHeight - 260;
+					$(".cutie").animate({left: wW});
+					$(".cutie").animate({marginTop: wH, height: 100, width:100});
+					$(".cutie").animate({left: 40});
+					$(".cutie").animate({marginTop: 30, height: 50, width:50});
+					$(".cutie").hide(1000, function(){$(".frm").show(1000);
+					$("#btn06").click(function(){
+					var suma = 0;
+					suma = parseInt($("#nr1").val()) + parseInt($("#nr2").val());
+					$("#rez").text(suma);});
+					
+
+					
+			});
+			
+			});
+			
+		-->
+		</script>
+		
+	</head>
+	<body>
+		<div id="container" width="100%" height="100%">
+		
+		<!-- create menu
+		     using buttons to open a new page  -->
+		<div id="meniu" align="center">
+			<input type="button" value="B1" onclick="location.href='1.html'"> 
+			<input type="button" value="B2" onclick="location.href='2.html'">
+			<input type="button" value="B3" onclick="location.href='#'">
+			<input type="button" value="B4" onclick="location.href='4.html'">
+		</div>
+		
+		<br>
+		<div class="cutie">
+		</div>
+		<div class="frm" align="center">
+			<table>
+			<form>
+				<tr>
+					<td><label>Introduceti primul numar: </label></td>
+					<td><input type="text" id="nr1"></td>
+				</tr>
+				<tr>
+					<td><label>Introduceti al doilea numar: </label></td>
+					<td><input type="text" id="nr2"></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="button" id="btn06" value="Calculeaza suma!!!"></td>
+				</tr>
+				<tr>
+					<td> <label> Suma este:</label></td>
+					<td><span id="rez"></span></td>
+				</tr>
+			</form>
+			</table>
+		</div>
+		
+		</div>
+	</body>
+</html>
